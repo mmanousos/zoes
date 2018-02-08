@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    height: auto;
+}
+
+h1 {
+    font-size: 240%;
+}
+
+.container {
+    /*max-width: 940px;*/
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+/* -------------------- */
+/*    ALL PAGES NAV     */
+/* -------------------- */
+
+nav {
+    background-color: #222222;
+}
+
+nav button {
+    color: #fff;
+}
+
+/* ----------------------- */
+/*         BUTTONS         */
+/* ----------------------- */
+
+/* Intro button */
+
+.btn-main:link,
+.btn-main:visited, 
+.btn-main:hover, 
+.btn-main:active {
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+    font-size: 120%;
+    letter-spacing: 1.3px;
+    padding: 3%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Buttons for content */
+
+.btn-default {
+    border: 1px solid #333;
+    color: #000;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    padding: 10px 20px;
+    text-transform: uppercase;  
+    display: inline-block;
+}
+
+a.btn-default:hover,
+a.btn-default:active {
+    text-decoration: none;
+}
+
+/* -------------------- */
+/*   BACKGROUND IMAGE   */
+/* -------------------- */
+
+.intro {
+    padding-top: 30px;
+    -webkit-filter: grayscale(1);
+    filter:grayscale(1);
+    height: 700px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home-intro {
+    margin-top: 50px;
+    background: url(/img/mar28-22.edit.jpeg) no-repeat top center fixed;
+}
+
+/* -------------------- */
+/*    INTRO TEXT BOX    */
+/* -------------------- */
+
+.main {
+    margin-top: 100px;
+    text-align: center;
+ /* box for contrast */
+    padding: 25px 0 10px 0;
+    background-color: rgba(255, 255, 255, 0.52); 
+    border-radius: 5px;
+}
+
+.home {
+ /* box for contrast */
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: #333;
+    font-weight: 600;
+    font-size: 200%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+
+/* --------------------- */
+/*    SUPPORTING TEXT    */
+/* --------------------- */
+
+.spacer {
+    height: 50px;
+}
+
+.supporting {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.supporting .col {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 50px;
+}
+
+.supporting img {
+    height: 45px;
+    margin-bottom: 5px;
+    
+}
+
+.supporting h2 {
+    font-weight: 600;
+    font-size: 120%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.supporting p {
+    margin-bottom: 40px;  
+}
+
+  
+/* -------------------- */
+/*        FOOTER        */
+/* -------------------- */
+ 
+.footer {
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.footer p {
+    text-align: center;
+    border: none;
+}
