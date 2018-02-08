@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 h1 {
@@ -18,19 +19,35 @@ h1 {
 /*    ALL PAGES NAV     */
 /* -------------------- */
 
-.nav {
+nav {
+    background-color: #222222;
+}
+
+nav button {
+    color: #fff;
+}
+
+
+/*
+nav {
     list-style-type: none;
     margin: 0;
 }
 
-.nav li {
+
+.navbar li {
     color: #fff;
     display: inline;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 75%;
     margin-right: 25px;
     text-transform: uppercase;
 }
+
+.nav li a:hover {
+    text-decoration: none !important;
+}*/
+
 /* -------------------- */
 /*       CLEARFIX       */
 /* -------------------- */
