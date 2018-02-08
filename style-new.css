@@ -23,11 +23,31 @@ h1 {
 
 nav {
     background-color: #222222;
+    height: 40px;
 }
 
-nav button {
+.active {
+    background-color: #000;
+}
+
+li.active a:link,
+li.active a:active,
+li.active a:visited {
+    color: #fff !important;
+}
+
+nav li a {
+    color: #8d8d8d;
+    text-decoration: none !important;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+nav li a:hover {
     color: #fff;
 }
+
+
 
 /* ----------------------- */
 /*         BUTTONS         */
