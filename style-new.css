@@ -14,7 +14,6 @@ h1 {
     /*max-width: 940px;*/
     margin: 0 auto;
     padding: 0 10px;
-
 }
 
 /* -------------------- */
@@ -101,6 +100,7 @@ a.btn-default:active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 .home-intro {
@@ -116,7 +116,7 @@ a.btn-default:active {
 }
 
 .coaching-intro {
-    background: url(img/mar28-16.jpg) no-repeat center center fixed;
+    background: url(img/mar28-16.edit.jpg) no-repeat center center fixed;
 }
 
 /* -------------------- */
@@ -159,13 +159,22 @@ h1 {
 /*    SUPPORTING TEXT    */
 /* --------------------- */
 
+.basic-text {
+    background-color: #bcbcbc; 
+}
+
+.text {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .spacer {
-    height: 50px;
+    height: 20px;
 }
 
 .supporting {
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding: 30px 0;
 }
 
 .supporting .col {
