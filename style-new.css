@@ -107,6 +107,18 @@ a.btn-default:active {
     background: url(/img/mar28-22.edit.jpeg) no-repeat top center fixed;
 }
 
+.about-intro {
+    background: url(img/mar28-23.jpg) no-repeat center center fixed;
+}
+
+.performance-intro {
+    background: url(img/mar28-17.edit.jpg) no-repeat center center fixed;
+}
+
+.coaching-intro {
+    background: url(img/mar28-16.jpg) no-repeat center center fixed;
+}
+
 /* -------------------- */
 /*    INTRO TEXT BOX    */
 /* -------------------- */
@@ -132,6 +144,14 @@ h1 {
     margin-top: 0;
     margin-bottom: 40px;
     text-transform: uppercase;
+}
+
+/* --------------------- */
+/*  PERFORMANCE VIDEO    */
+/* --------------------- */
+
+.reel {
+    margin-bottom: 50px;
 }
 
 
